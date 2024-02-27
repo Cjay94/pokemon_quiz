@@ -128,11 +128,11 @@ function checkAnswer(isCorrect, event) {
         event.target.classList.add("wrong");
     }
 
-    //15.9) load the next Question with 1.5s delay so user and read result 
+    //15.9) load the next Question with 1s delay so user and read result 
     setTimeout(() => {
         showLoading = true;
         loadQuestionWithOptions();
-    }, 1500)
+    }, 1000)
 }
 
 // 11) initial load
